@@ -1,1 +1,2 @@
-import img from 'assets/images/file.jpg'
+const file = require('../assets/images/file.jpg');
+require('./icons.font');
