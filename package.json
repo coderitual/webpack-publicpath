@@ -1,0 +1,21 @@
+{
+  "name": "webpack-publicpath",
+  "version": "1.0.0",
+  "description": "The webpack's output.publicPath option on different loaders",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "test",
+    "publicpath"
+  ],
+  "author": "Michał Skowronek @coderitual",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^0.11.2",
+    "webpack": "^3.5.5"
+  }
+}
