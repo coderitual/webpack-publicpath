@@ -1,1 +1,1 @@
-import img from '../assets/file.jpg'
+import img from 'assets/file.jpg'
