@@ -4,6 +4,8 @@
   "description": "The webpack's output.publicPath option on different loaders",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +20,7 @@
     "css-loader": "^0.28.5",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^0.11.2",
+    "rimraf": "^2.6.1",
     "style-loader": "^0.18.2",
     "webfonts-loader": "^2.0.3",
     "webpack": "^3.5.5"
